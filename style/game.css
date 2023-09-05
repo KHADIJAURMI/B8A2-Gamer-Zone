@@ -180,36 +180,41 @@ nav li a {
     height: 50px;
 }
 
-.onlines-games-image-container
+
 /*  play-instantly-section  */
 
-.play-instantly-section {
-    margin: 130px 70px 50px 150px;
-    display: flex;
+.play-instantly-section{
+    display: flex !important;
     align-items: center;
-    gap: 100px;
+    padding: 120px 70px;
+     gap: 100px; 
 
 }
 
 .play-instantly-content {
-    padding-left: 70px;
-    padding-right: 70px;
+    position: relative;
+    top:-20px;
+    margin-left: 60px;
+   text-align: center;
+   width: 500px;
+   height:400px;
+   padding-right: 50px;
 }
 
 .play-instantly-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    color:#0B0223;
 }
 
 .play-instantly-description {
     color: #534C64;
-    /* text-align: right; */
     font-size: 18px;
     font-weight: 400;
+    position: relative;
+    top:-20px;
 }
-
-
 .angel-bedge {
     width: 318.5px;
     height: 365.083px;
@@ -220,5 +225,7 @@ nav li a {
     position: relative;
     bottom: 150px;
     right: 130px;
-
 }
+
+
+/* section of games */
