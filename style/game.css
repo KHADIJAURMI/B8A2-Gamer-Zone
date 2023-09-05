@@ -129,16 +129,96 @@ nav li a {
     margin: 5px 0;
     padding: 0;
 }
+
+/* Online Game Section */
+.onlines-games-section {
+    margin-top: 120px;
+    margin-left: 50px;
+    padding: 50px 100px 70px 70px;
+}
+
+.onlines-games-content {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.onlines-games-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.onlines-games-description {
+    position: relative;
+    top: -20px;
+}
+
+.onlines-games-image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 8.5rem;
+    /* padding: 48 240 0; */
+    width: 500px;
+
+}
+
+.onlines-games-image-container img {
+
+    position: relative;
+    height: 300px;
+    width: 250px;
+    margin: auto;
+    border: 0;
+}
+
+.onlines-games-image-container .img-caption {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    width: 250px;
+    height: 50px;
+}
+
+.onlines-games-image-container
 /*  play-instantly-section  */
 
-.play-instantly-section{ 
-    margin: 130px 70px 50px 50px;
+.play-instantly-section {
+    margin: 130px 70px 50px 150px;
     display: flex;
+    align-items: center;
     gap: 100px;
-    justify-content: center;
+
 }
+
+.play-instantly-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 .play-instantly-title {
     font-size: 48px;
     font-weight: 700;
-    /* line-height: 60px;  */
+    line-height: 60px;
+}
+
+.play-instantly-description {
+    color: #534C64;
+    /* text-align: right; */
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.angel-bedge {
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    /* background: url(../images/Rectangle\ 66.png), no-repeat; */
+    position: relative;
+    bottom: 150px;
+    right: 130px;
+
 }
