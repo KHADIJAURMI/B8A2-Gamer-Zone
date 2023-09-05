@@ -1,0 +1,105 @@
+/* shared style */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.highlighter-text {
+    font-size: 90px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* header style */
+
+
+.header-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.813rem;
+    font-weight: 700;
+    margin: 0;
+    background-image: url(../images/Frame.png) no-repeat;
+    position: relative;
+    left: -270px;
+    display: flex;
+    align-items: center;
+
+}
+
+.head-content img {
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 1.125rem;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgba(60, 53, 79, 1);
+
+}
+
+.follow-icon {
+    display: inline-block;
+    width: 262px;
+    height: 56px;
+    border: 8px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    text-align: center;
+    line-height: 56px;
+    padding: 0 15px;
+}
+
+.youtube-icon {
+    margin-left: 5px;
+    font-size: 15px;
+    color: red;
+}
+
+/* Main part */
+/* banner section */
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-title1 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.banner-img {
+    width: 50%;
+    height: 50%;
+}
+
+
+
