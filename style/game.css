@@ -291,15 +291,15 @@ button>span {
     width: 1350px;
     height: 636px;
     background: #0B0223;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 
 }
 .footer-top{
     position: relative;
-    top: -80px;
-    left: 480px;
+    top:50px;
+    left: 530px;
     display:flex;
     align-items: center;
 }
@@ -323,24 +323,12 @@ button>span {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0;
+  margin: 100px 0;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
 }
 .menu .menu__link{
     text-decoration: none;
     color: #FFF;
 }
 
-.social-icon__item,
-.menu__item {
-  list-style: none;
-}
-
-.social-icon__link {
-  font-size: 2rem;
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-}
