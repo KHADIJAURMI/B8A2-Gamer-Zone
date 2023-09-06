@@ -293,7 +293,7 @@ button>span {
 
 .footer-section {
     width: 1350px;
-    height: 636px;
+    height: 600px;
     background: #0B0223;
     /* display: flex;
     align-items: center;
@@ -334,6 +334,13 @@ button>span {
     gap: 30px;
     top:30px;
 }
+.menu {
+    list-style: none;
+}
+.footer-section .menu li>a{
+    text-decoration: none;
+    color: #FFF;
+}
 
 .icon-link {
     position: relative;
@@ -352,10 +359,20 @@ button>span {
     display: flex;
     align-items: center;
 }
-.footer-section p {
+.footer-section p{
     text-align: center;
-    color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+  }
+
+ .footer-terms ul{
+    color:rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    list-style:none ;
+    margin-bottom: 50px;
   }
