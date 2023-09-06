@@ -28,7 +28,8 @@
 
     nav, nav>ul, 
     .banner-section ,
-    .onlines-games-section{
+    .onlines-games-section ,
+    .play-instantly-section{
         flex-direction: column;
     }
 

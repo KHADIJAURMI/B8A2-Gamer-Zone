@@ -4,9 +4,11 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-body{
-  overflow-x: hidden;
+
+body {
+    overflow-x: hidden;
 }
+
 .header-title {
     text-align: center;
     font-size: 2.813rem;
@@ -155,6 +157,19 @@ nav li a {
     margin: 0 auto;
 }
 
+.images-item{
+    position: relative;
+    text-align: center;
+}
+.images-item img{
+    height: 300px;
+    width: 250px;
+    border: 0;
+    transition: background-color 0.3s;
+}
+.image-overlay:hover img {
+    background-color: #555; 
+}
 .onlines-games-title {
     color: #0B0223;
     font-size: 48px;
@@ -189,6 +204,38 @@ nav li a {
     font-weight: 500;
     width: 250px;
     height: 50px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+.play-button i {
+    font-size: 24px;
+    color: #FFF; 
+    background-color: #333; 
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.play-button span {
+    font-size: 16px;
+    color: #333;
+    display: block;
+}
+
+
+.play-button:hover i {
+    color: #FFF;
+}
+
+.play-button:hover span {
+    color: #FFF;
 }
 
 
@@ -332,12 +379,14 @@ button>span {
     margin: 100px 0;
     flex-wrap: wrap;
     gap: 30px;
-    top:30px;
+    top: 30px;
 }
+
 .menu {
     list-style: none;
 }
-.footer-section .menu li>a{
+
+.footer-section .menu li>a {
     text-decoration: none;
     color: #FFF;
 }
@@ -359,22 +408,21 @@ button>span {
     display: flex;
     align-items: center;
 }
-.footer-section p{
+
+.footer-section p {
     text-align: center;
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
-  }
+}
 
- .footer-terms ul{
-    color:rgba(255, 255, 255, 0.60);
+.footer-terms ul {
+    color: rgba(255, 255, 255, 0.60);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
-    list-style:none ;
+    gap: 50px;
+    list-style: none;
     margin-bottom: 50px;
-  }
-
-  
+}
