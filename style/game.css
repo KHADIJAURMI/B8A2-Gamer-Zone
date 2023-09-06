@@ -4,7 +4,9 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-
+body{
+  overflow-x: hidden;
+}
 .header-title {
     text-align: center;
     font-size: 2.813rem;
@@ -376,3 +378,5 @@ button>span {
     list-style:none ;
     margin-bottom: 50px;
   }
+
+  

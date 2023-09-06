@@ -1,0 +1,31 @@
+/* Responsive Layout */
+
+  /* Mobile Devices */
+
+  @media screen and (max-width:576px) {
+   
+    .header-title{
+        text-align: center;
+        font-size: 1.5rem;
+        background-image: none;
+        left:0;
+    }
+    .head-content img{
+        width: 70px;
+        height:40px;
+    }
+    nav li{
+        margin-right: 25px;
+        font-size:1.125rem;
+    }
+    .follow-icon{
+        width:262px;
+        margin: 0;
+    }
+    nav, nav>ul{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+  }
